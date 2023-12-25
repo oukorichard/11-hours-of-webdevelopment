@@ -4,7 +4,7 @@ const bottomNav = document.querySelector('.bottom-container')
 
 
 window.addEventListener('scroll', ()=>{
-    if(window.scrollY > bottomNav.offsetTop-50){
+    if(window.scrollY > bottomNav.offsetTop - navBar.offsetTop -100){
         navBar.classList.add('active')
     }
     else{
